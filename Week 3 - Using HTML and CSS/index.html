@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="project-name">
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/register.css">
+    <title>Register page</title>
+</head>
+
+<body>
+    <header class="topheader">
+        <h1 id="title">REGISTER</h1>
+        <p id="description">Thanks for visiting our webpage!!!</p>
+    </header>
+    <div class="container">
+        <form action="success.html" method="post" id="survey-form">
+            <fieldset>
+                <label id="name-label">First name <input type="text" id="firstName" name="FirstName"
+                        placeholder="First name" required></label>
+                <label id="name-label">Last name <input type="text" id="LastName" name="LastName"
+                        placeholder="Last name" required></label>
+                <label id="number-label">Phone number <input type="tel" id="phoneNumber" name="phoneNumber"
+                        placeholder="Phone number" required></label>
+                <label id="email-label">Email <input type="email" id="email" name="email" placeholder="email"
+                        required></label>
+                <label>Gender
+                    <select id="dropdown" name="referrer">
+                        <option value="">(select one)</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </label>
+                <label id="name-label">Date of birth <input type="date" id="dateOfBirth" name="dateOfBirth"
+                        required></label>
+                <label id="name-label">Favourite color <input type="color" id="color" name="color" required></label>
+                <label id="password-label">Password <input type="password" id="password" name="password"
+                        pattern="{a-z0-5}{8,}" placeholder="password" required></label>
+                <label id="number-label">Age <input type="number" id="number" name="age" min="13" max="120"
+                        placeholder="age" required></label>
+
+                <input type="submit" id="submit" value="register" class="space">
+            </fieldset>
+
+
+        </form>
+    </div>
+    <a href="login.html" class="newAccount">Already have an account? <span>Login</span></a>
+
+    <!-- javascript tag -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

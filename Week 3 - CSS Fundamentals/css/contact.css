@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+section {
+    background: #121c1f;
+    height: 600px;
+    padding-top: 300px;
+    height: 100vh;
+}
+
+.contact-info {
+    color: white;
+    text-align: center;
+}
+i {
+  margin-top: 40px;
+  padding-left: 150px;
+  color: white;
+}
+
+@media (max-width: 680px) {
+    i {
+        padding-left: 40px;
+    }
+}

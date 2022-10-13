@@ -1,0 +1,61 @@
+body {
+    background: #2a542c;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.topheader {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: Impact, serif;
+    margin-top: 60px;
+}
+
+.container {
+    width: 80%;
+    background: #0a1a0f;
+    margin: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input {
+    width: 100%;
+    border: none;
+    min-height: 1.5em;
+}
+
+input[type="password"],
+input[type="email"] {
+    border-radius: 2px;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="submit"] {
+    background: #93c2a4;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}

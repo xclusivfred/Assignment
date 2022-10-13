@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+}
+
+h1,
+p {
+    color: white;
+    padding: 0 25px;
+}
+
+h1 {
+    margin-bottom: -180px;
+    margin-top: 200px;
+}
+
+p {
+    font-size: small;
+    margin-bottom: -200px;
+    margin-top: 220px;
+}
+
+img {
+    margin-bottom: -140px;
+    margin-top: 50px;
+    padding: 0 25px;
+}
+
+#gallery {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.cards {
+    width: 30%;
+    height: 500px;
+}
+
+.orange {
+    background: orange;
+}
+
+.blue {
+    background: skyblue;
+}
+
+.green {
+    background: green;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    padding: 8px 15px;
+    margin: 300px 25px 0;
+}
+
+.sedans {
+    color: orange;
+}
+
+.suvs {
+    color: skyblue;
+}
+
+.luxury {
+    color: green;
+}
+
+
+@media (max-width: 680px) {
+    .cards {
+        width: 100%;
+    }
+
+    #gallery {
+        margin-left: 50px;
+    }
+}
